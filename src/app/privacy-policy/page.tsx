@@ -179,17 +179,18 @@ export default function PrivacyPolicyPage() {
                 </p>
               </div>
             </div>
-          </div>
-        </article>
-      </section>
+          
+          </article>
+      </div>
+    </section>
 
-      <footer className="border-t border-zinc-200">
-        <div className="mx-auto max-w-7xl px-6 py-8 text-sm text-zinc-400 sm:px-8 lg:px-12">
-          Passkey
-        </div>
-      </section>
-    </main>
-  );
+    <footer className="border-t border-zinc-200">
+      <div className="mx-auto max-w-7xl px-6 py-8 text-sm text-zinc-400 sm:px-8 lg:px-12">
+        Passkey
+      </div>
+    </footer>
+  </main>
+);
 }
 
 function SectionHeading({
